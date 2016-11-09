@@ -1,0 +1,32 @@
+Ruby Class Variable:
+1. Local Variable(lowercase or _): available only on the method
+2. Instance Variable(@): "Instance variables live in, and are visible everywhere in the object’s scope."
+3. Class Variable (@@): available across different objects of the same class
+4. Global Variable ($)
+
+Ruby Constant (Begin with capital letter)
+
+Calling variable
+Ex.
+	puts "Global variable in Class1 is #$global_variable"
+
+Array declaration
+	names = Array.new -> names=[]
+	names = Array.new(4) -> names=['','','','']
+	names = Array.new(4,"MAC") -> names=["MAC","MAC","MAC","MAC"]
+	nums = Array.[](1, 2, 3, 4,5)
+	nums = Array[1, 2, 3, 4,5]
+	digits = Array(0..10) -> digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	
+	-----------------------------------------
+					Example
+	-----------------------------------------
+	digits = Array(0..9) #digits=[0,1,2,3,4,5,6,7,8,9]
+	num = digits.at(6)
+	temp = digits[3]
+	puts "#{temp}" # temp=3
+	puts "#{num}" # num=6
+
+Ruby Method is similar to function.
+	
+	
